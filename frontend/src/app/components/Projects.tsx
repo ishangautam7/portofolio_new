@@ -18,7 +18,7 @@ const Projects = () => {
       title: 'Chat Application with LLM & RAG',
       description: 'A fullstack chat application powered by Large Language Models with Retrieval-Augmented Generation (RAG). Users can chat with AI, upload documents for context-aware responses, and get intelligent answers based on custom knowledge bases.',
       image: '/chatbot.png',
-      technologies: ['Next.js', 'Node.js', 'Python', 'LLM', 'RAG', 'Vector DB', 'Express', 'MongoDB'],
+      technologies: ['Next.js', 'Node.js', 'Python', 'LLM', 'RAG', 'Vector DB', 'Express', 'Prisma'],
       githubLink: 'https://github.com/ishangautam7/rag-bot',
       liveLink: 'https://chat.ishan-gautam.com.np/',
       category: 'Full Stack, Machine Learning'
@@ -57,7 +57,7 @@ const Projects = () => {
       id: 6,
       title: '3D Game Engine',
       description: 'A 3D game engine built with C++ and OpenGL. It supports 3D rendering, physics, and game logic.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/3dengine.png',
       technologies: ['C', 'C++', 'CMake', 'OpenGL', 'GLFW', 'GLM'],
       githubLink: 'https://github.com/ishangautam7/3DEngine',
       category: 'C++'
