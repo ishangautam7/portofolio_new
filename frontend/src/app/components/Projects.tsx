@@ -7,14 +7,24 @@ const Projects = () => {
       id: 1,
       title: 'Metaverse',
       description: 'A full stack metaverse app where user can create maps and connect with other people via live video as well as audio chat supports live chat as well.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: '/metaverse.png',
       technologies: ['Next.js', 'Node.js', 'MongoDB', 'Express', 'WebRTC', 'Socket'],
-      githubLink: '',
-      liveLink: '',
+      githubLink: 'https://github.com/ishangautam7/metaverse',
+      liveLink: 'https://metaverse.ishan-gautam.com.np/',
       category: 'Full Stack'
     },
     {
       id: 2,
+      title: 'Chat Application with LLM & RAG',
+      description: 'A fullstack chat application powered by Large Language Models with Retrieval-Augmented Generation (RAG). Users can chat with AI, upload documents for context-aware responses, and get intelligent answers based on custom knowledge bases.',
+      image: '/chatbot.png',
+      technologies: ['Next.js', 'Node.js', 'Python', 'LLM', 'RAG', 'Vector DB', 'Express', 'MongoDB'],
+      githubLink: 'https://github.com/ishangautam7/rag-bot',
+      liveLink: 'https://chat.ishan-gautam.com.np/',
+      category: 'Full Stack, Machine Learning'
+    },
+    {
+      id: 3,
       title: 'Cricket Score Predictor',
       description: 'A machine learning model that analyzes current game scenerio and predicts the output based on the past games used to train the model',
       image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -24,7 +34,7 @@ const Projects = () => {
       category: 'Full Stack'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Movie Recomendation System',
       description: 'A movie recommendation system that uses machine learning to recommend movies to users based on their liked movies.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -34,7 +44,7 @@ const Projects = () => {
       category: 'Machine Learning'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Chat Application',
       description: 'A chat application where user can live chat with other. Created using React, Express and Socket',
       image: 'https://as2.ftcdn.net/v2/jpg/05/26/52/71/1000_F_526527151_xsfyOxjCQwASvCNVFpgNM4KyIuqApcnb.jpg',
@@ -44,23 +54,21 @@ const Projects = () => {
       category: 'Machine Learning'
     },
     {
-      id: 5,
+      id: 6,
       title: '3D Game Engine',
       description: 'A 3D game engine built with C++ and OpenGL. It supports 3D rendering, physics, and game logic.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['C', 'C++', 'CMake', 'OpenGL', 'GLFW', 'GLM'],
       githubLink: 'https://github.com/ishangautam7/3DEngine',
-      liveLink: '',
       category: 'C++'
     },
     {
-      id: 6,
+      id: 7,
       title: 'System Monitor',
       description: 'Built a real time system monitor in C++ for Linux with kernel level monitoring',
       image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['C', 'C++', 'CMake'],
       githubLink: 'https://github.com/ishangautam7/SystemMonitor',
-      liveLink: 'https://chat-app-demo.onrender.com',
       category: 'C++'
     }
   ];
